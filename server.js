@@ -2,7 +2,6 @@ const express = require('express'),
     bodyParser = require('body-parser'),
     fs = require('fs'),
     app = express();
-    stringifyFile = '';
 
 app.use(bodyParser.json());
 
